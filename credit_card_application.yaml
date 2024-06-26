@@ -1,0 +1,39 @@
+openapi: 3.0.3
+components:
+    schemas:
+        credit_card_application:
+            type: object
+            properties:
+                id:
+                    type: string
+                ssn:
+                    type: string
+                firstname:
+                    type: string
+                lastname:
+                    type: string
+                email:
+                    type: string
+                    format: email
+                dob:
+                    type: string
+                    format: date
+                address:
+                    type: string
+                city:
+                    type: string
+                state:
+                    type: string
+                zip:
+                    type: string
+                creditcardtype:
+                    type: string
+                annualincome:
+                    type: number
+                creditcheckconsent:
+                    type: string
+                source:
+                    type: string
+                lastupdated:
+                    type: string
+                    format: date-time

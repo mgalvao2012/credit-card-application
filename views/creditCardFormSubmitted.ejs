@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			label {
+				padding: 12px 12px 12px 0;
+				display: inline-block;
+			}
+
+			.container {
+				border-radius: 5px;
+				background-color: #b8c4e1;
+				padding: 20px;
+			}
+
+			/* Clear floats after the columns */
+			.row::after {
+				content: "";
+				display: table;
+				clear: both;
+			}
+		</style>
+	</head>
+
+	<body>
+		<h2>Credit Card Application</h2>
+		<div class="container">
+			<div class="row">
+				<p>Thank you for submitting your Credit Card Application</p>
+			</div>
+			<div class="row">
+				<p>
+					If you want make another submission, please,
+					<a href="/">click here</a>
+				</p>
+			</div>
+		</div>
+	</body>
+</html>

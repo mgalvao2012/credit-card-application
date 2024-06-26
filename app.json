@@ -1,0 +1,7 @@
+{
+	"name": "Credit Card Application Sample",
+	"description": "This is a sample app created to demonstrate the ingestion api capability for Salesforce Data Cloud",
+	"repository": "https://github.com/mgalvao2012/creditcardapplication",
+	"logo": "",
+	"keywords": ["node", "express", "salesforce", "datacloud"]
+}
